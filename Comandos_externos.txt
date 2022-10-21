@@ -1,0 +1,13 @@
+http://192.168.100.2:8500/ui/dc1/nodes
+http://192.168.100.2:1936/
+http://192.168.100.2/
+artillery quick --count 10 -n 20 https://192.168.100.2/
+
+
+sudo apt update
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc
+nvm --version
+nvm ls
+nvm ls-remote
+nvm install [19.0.0]
